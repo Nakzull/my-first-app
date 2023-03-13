@@ -1,0 +1,14 @@
+<div class="text-center">
+    <p>Hvor lang er side a?</p>
+    <input [(ngModel)]="sidea">>
+    <p>Hvor lang er side b?</p>
+    <input [(ngModel)]="sideb">
+</div>
+<br>
+<div class="text-center"><button type="button" (click)="rektangle()">Beregn</button></div>
+<br>
+<div class="text-center">
+    <p>Omkredsen af rektanglen er: {{omkreds}}</p>
+    <br>
+    <p>Arealet af rektanglen er: {{areal}}</p>
+</div>
